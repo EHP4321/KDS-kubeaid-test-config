@@ -51,9 +51,6 @@ cloud:
     nodeGroups:
       - name: bootstrapper
         hosts:
-          - privateAddress: "172.17.4.71"
-            sshPort: 22
-            sshUsername: emil
           - privateAddress: "172.17.4.72"
             sshPort: 22
             sshUsername: emil
